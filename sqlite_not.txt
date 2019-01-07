@@ -1,0 +1,96 @@
+- Method ile kullanýmý
+- Harici Database (SQLOpenHelper)
+- Dahili Database (SQLOpenHelper)
+
+
+CRUD
+- Create - Veritabaný Oluþturma, Tablo Oluþturma
+- Update - Tablodaki verileri güncelleme
+- Delete - Veritabaný tablosu içerisindeki veriyi silmek
+- Drop - Veritabaný ve tablolarý silmek için kullanýlýr
+- Read/Select - Verileri listelemek için Select sorgusu kullanýrýz.
+- Ýnsert - Tablo içerisine veri ekleme iþlemi için kullanýlýr.
+
+https://www.tutorialspoint.com/sqlite/
+
+
+Calisanlar
+- id
+- ad_soyad
+- ise_giris_tarihi
+- adresi
+- telefon_no
+
+----DATA TYPES - VERÝ TÝPLERÝ----
+int	- varsayýlan 11 haneli sayý üretilebilir.
+varchar	- 255 karakterlik string alaný oluþturur
+text	- uzun metinleri saklamak için
+blob	- resim saklamak istiyorsak
+
+
+----TABLO OLUÞTURMA----
+
+Create Table Calisanlar(
+	id int PRIMARY KEY,
+	ad_soyad varchar,
+	ise_giris_tarihi varchar,
+	adresi text,
+	telefon_no varchar
+);
+
+
+---TABLOYA VERÝ EKLEME----
+
+insert into Calisanlar 
+(
+	ad_soyad,
+	ise_giris_tarihi,
+	adresi,
+	telefon_no		
+)
+values
+(
+	'Þerif GÜNGÖR',
+	'07.01.2019',
+	'Fatih/Ýstanbul',
+	'+90 (212) 000 11 22'	
+);
+
+---TABLODAKÝ VERÝLERÝ LÝSTELEME----
+
+----Tüm Çalýþanlarý Listele
+select * from Calisanlar
+> select -- sorgu listelemek için
+> * -- tüm kolon deðerlerini getirmesi için
+> from -- from kelimesinden sonra verileri çekmek istediðimiz Tablo ismi belirtilir.
+
+---Bugün iþe girenleri Listeleme
+select * from Calisanlar where ise_giris_tarihi='07.01.2019'
+
+
+---TABLO ÝÇERÝSÝNDE VERÝ SÝLME----
+delete from Calisanlar; -- Tablodaki Tüm deðerleri siler
+
+delete from Calisanlar where ad_soyad='Þerif GÜNGÖR';
+
+
+---TABLO ÝÇERÝSÝNDE VERÝ GÜNCELLEME----
+
+update Calisanlar set telefon_no = '' where adresi='Fatih/Ýstanbul'
+--Fatih/Ýstanbul'da yaþayan Çalýþanlarýn telefon numarasýný sýfýrladýk.
+
+
+https://sqlitebrowser.org
+
+
+
+
+
+
+CREATE TABLE Calisanlar (id INTEGER PRIMARY KEY AUTOINCREMENT,ad_soyad VARCHAR,ise_giris_tarihi VARCHAR,adresi TEXT,telefon_no VARCHAR);
+
+
+
+
+
+
