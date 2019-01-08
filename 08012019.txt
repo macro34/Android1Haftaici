@@ -1,0 +1,61 @@
+SQLite ne amaçlý kullanýlýr ?
+- Veri depolamak için
+- Local Database amaçlý kullanýlýr.
+- Ýnternetsiz verileri görebileceðimiz uygulamalar üretebilmek içn
+
+SQLite
+ANDROÝD UYGULAMALARI
+- Rehber
+- Not Defteri
+- Galeri
+- Ses Kaydý Uygulamasý
+- Hesap Makinesi
+- Takvim
+- Alarm
+
+GELÝÞTÝRÝCÝ UYGULAMALARI
+- WhatsApp
+- Ýnternetsiz Yemek Tarifleri
+- Ýnternetsiz Rüya Tabirleri
+- ToDoList
+- Barkod Sistemi
+
+
+ÝLERÝ SEVÝYE ANDROÝD GELÝÞTÝRÝCÝSÝ OLMAK ÝÇÝN GEREKLÝ KRÝTERLER
+
+- WEB SERVÝSLER (REST/RESTFUL API)
+- - ASP.NET / PHP / JAVA EE / NODEJS (WEB YAZILIM DÝLLERÝ)
+- - JSON/XML Veri Okuma Ve Parçalama
+- - File Upload
+- - Veritabanýna Veri Ekleme/Silme/Güncelleme
+- - HttpURLConnection, Volley, Retrofit, Glide, Picasso
+- RECYCLER VÝEW NESNESÝ VE ADAPTER
+- REALTÝME ÝÞLEMLERÝ
+- - FÝREBASE
+- - - DOSYA SAKLAMA (STORAGE)
+- - - VERÝTABANI (DATABASE)
+- - - ANALÝTÝK (ANALYTÝCS)
+- - - BÝLDÝRÝM (CLOUD MESSAGÝNG)
+- - - CHAT UYGULAMASI
+- - NODE JS/SOCKET.IO 
+- - - CHAT UYGULAMASI
+- - - ANLIK ÝÞLEMLER ÝÇÝN KULLANILIR.
+- - - OYUNLARDA KULLANILAN BÝR YAPI
+- FRAGMENT SINIFI
+- ANÝMASYONLAR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
