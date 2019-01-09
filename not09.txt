@@ -1,0 +1,24 @@
+SQLiteOpenHelper sýnýfý
+
+
+Dahili SQLite kullanýmý
+- Not Defteri
+- Hatýrlatýcý
+- Alarm
+- Hesap Makinesi
+- Aný Defteri/Günlük
+- To Do List (Yapýlacaklar Listesi)
+
+Harici SQLite kullanýmý (.db)
+- Ýnternetsiz Yemek Tarifleri
+- Þiir/Özlü Sözler/Kitap Özetleri
+- Rüya Tabirleri
+- Oyunlar
+
+
+
+Anlýk Bildirim
+- Firebase Cloud Messaging
+- One Signal
+- NodeJS/Socket.io
+- Service sýnýfý + Notification Sýnýfý
