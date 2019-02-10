@@ -1,0 +1,22 @@
+Intent;
+
+- Sayfalar arasý geçiþ ve veri transferi yapabilmek amacýyla kullanýlýr.
+-- MainActivity sayfasýndan SecondActivity sayfasýný açabilmek için kullanýlýr.
+--- startActivity metodu içerisine intent tipinde argüman alýr.
+-- putExtra metodu, bir sayfadan diðer sayfaya geçiþ yaptýðýnda taþýnacak olan veriyi temsil eder.
+   verileri key-value iliþkisinde barýndýrýr. 
+
+- Farklý uygulama paketlerini açabilmek için kullanýlýr.
+-- Paket adýný ve Activity sýnýfýnýn adýný bildiðimiz bir uygulama sayfasýný doðrudan açabiliriz.
+--- Örneðin: Facebook Uygulamasýnýn LoginActivity sayfasýný doðrudan bizim uygulamamýz vasýtasýyla açabilmek.
+
+- Bir uygulamadan sonuç almak üzere kullanýlabilir (startActivityForResult() metodu)
+-- Örneðin: Android'in Kamera uygulamasýný açtýrýp, fotoðraf çekip, fotoðraf datasýný 
+bizim uygulamamýz içerisinde ImageView'de gösterebiliriz.
+
+- Belirli bir görevi gerçekleþtirebilecek olan uygulama olarak kullanýlabilir (Intent Filters)
+-- Belirli bir tipte paylaþým yapabilmek üzere kullanýlabilir. 
+   Örneðin: Resim paylaþ yada yazýyý paylaþ'a bastýðýmýzda Bizim Uygulama adýmýz ve logomuz çýksýn,
+   Açýlan uygulamamýz sayesinde paylaþýlan datayý yakalayýp Activity sýnýfýnda kullanabiliriz.
+
+
